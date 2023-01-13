@@ -24,7 +24,6 @@ public class MenuManager : MonoBehaviour
         else
         {
             _menu.SetActive(true);
-
         }
     }
 }
