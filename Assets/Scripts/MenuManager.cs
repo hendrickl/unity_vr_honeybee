@@ -8,8 +8,7 @@ public class MenuManager : MonoBehaviour
     [SerializeField] InputActionReference _menuAction;
     [SerializeField] GameObject _menu;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         _menuAction.action.Enable();
         _menuAction.action.performed += DisplayMenu;
