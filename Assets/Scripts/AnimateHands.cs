@@ -9,16 +9,13 @@ public class AnimateHands : MonoBehaviour
     [SerializeField] private InputActionReference _gripAction;
     [SerializeField] private Animator _animator;
 
-    // Update is called once per frame
     private void Update()
     {
-
         float triggerVal = _pinchAction.action.ReadValue<float>();
         _animator.SetFloat("Trigger", triggerVal);
 
         float gripVal = _gripAction.action.ReadValue<float>();
         _animator.SetFloat("Grip", gripVal);
-
     }
 
 }
