@@ -23,4 +23,4 @@ This project is a prototype virtual reality application to discover beekeeping. 
 
 ## Contributing
 
-If you would like to contribute to this project, you can create pull requests with your modifications. We appreciate any contributions that can improve the application.
+If you would like to contribute to this project, you can create pull requests with your modifications. I appreciate any contributions that can improve the application.
