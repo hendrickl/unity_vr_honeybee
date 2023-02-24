@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SmokerManager : MonoBehaviour
@@ -8,13 +6,11 @@ public class SmokerManager : MonoBehaviour
 
     public void ActivateSmoke()
     {
-        print("Smoke is activated");
         _smokeParticle.SetActive(true);
     }
 
     public void DeactivateSmoke()
     {
-        print("Smoke is off");
         _smokeParticle.SetActive(false);
     }
 }
